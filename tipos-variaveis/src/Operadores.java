@@ -2,29 +2,29 @@ public class Operadores {
 
     public static void main(String[] args) {
     
-        String nomeCompleto = "Thalita" + "Meira";
+        // String nomeCompleto = "Thalita" + "Meira";
 
-        System.out.println (nomeCompleto);
+        // System.out.println (nomeCompleto);
 
-        int numero = 5;
+        // int numero = 5;
 
-        numero= - numero;
+        // numero= - numero;
 
-        System.out.println(numero);
+        // System.out.println(numero);
 
-        numero = numero * -1;
+        // numero = numero * -1;
         
-        System.out.println(numero);
+        // System.out.println(numero);
 
-        //x repetição
+        // //x repetição
 
-        int numero2 = 5;
+        // int numero2 = 5;
 
-        numero2++;
+        // numero2++;
 
-        //numero2 = numero + 1;
+        // //numero2 = numero + 1;
 
-        System.out.println(numero2);
+        // System.out.println(numero2);
 
         //operador ternário
         int a,b;
@@ -41,6 +41,50 @@ public class Operadores {
         String resultado = a==b ?"verdadeiro" : "falso";
 
         System.out.println(resultado);
+
+        //operadores relacionais
+
+        // == quando desejamos verificar se uma variável é IGUAL A outra
+        // != quando desejamos verificar de uma variável é DIFERENTE da outra
+        // > quando desejamos verificar se uma variável é MAIOR QUE a outra
+        // >= quando desejamos verificar se uma variável é MAIOR OU IGUAL A outra
+        // < quando desejamos verificar se uma variável é MENOS QUE a outra
+        // <= quando desejamos verificar se uma variável é MENOR OU IGUAL a outra
+
+        int numero1 = 1;
+        int numero2 = 2;
+
+        System.out.println("Valores: " + numero1 + " e " + numero2);
+
+        boolean simNao = numero1 == numero2;
+
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+        simNao = numero1 != numero2;
+
+        System.out.println("numeroUm é diferente de numeroDois? " + simNao);
+
+        simNao = numero1 > numero2;
+
+        System.out.println("numeroUm é maior que numeroDois? " + simNao);
+
+        simNao = numero1 >= numero2;
+
+        System.out.println("numeroUm é maior ou igual a numeroDois? " + simNao);
+
+        simNao = numero1 < numero2;
+
+        System.out.println("numeroUm é menor que numeroDois? " + simNao);
+
+        simNao = numero1 <= numero2;
+
+        System.out.println("numeroUm é menor ou igual a numeroDois? " + simNao);
+
+        simNao = numero1 <= numero2;
+
+        System.out.println("numeroUm é menor ou igual a numeroDois? " + simNao);
+
+
 
 
 
