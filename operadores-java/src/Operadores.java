@@ -16,6 +16,7 @@ public class Operadores {
         
         // System.out.println(numero);
 
+        
         // //x repetição
 
         // int numero2 = 5;
