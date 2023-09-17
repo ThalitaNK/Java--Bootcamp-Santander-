@@ -15,11 +15,10 @@ public class TiposVariaveis {
 
         final double VALOR_DE_PI = 3.14;
 
+        var imprimindoVariaveis = meuNome + numero + VALOR_DE_PI + numeroCurto2;
         
-        System.out.println(meuNome);
-        System.out.println(numero);
-        System.out.println(VALOR_DE_PI);
-        System.out.println(numeroCurto2);
+        System.out.println(imprimindoVariaveis);
+       
 
     }
 }
