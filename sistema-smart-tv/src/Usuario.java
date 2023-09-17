@@ -1,5 +1,8 @@
 public class Usuario {
     public static void main(String[] args) throws Exception {
+
+        System.out.println("Esse programa simula uma Smart TV!!!");
+
         SmartTv  smartTv = new SmartTv();
 
         smartTv.abaixarVolume();
