@@ -1,8 +1,22 @@
 import java.util.Scanner;
 /**
- * @author
+ * <h1>ContaBanco</h1>
+ * A aplicação recebe os dados via terminal de uma conta em um banco.
+ * <p>
+ * <b>Note:</b> Leia atentamente a documentação desta classes
+ * para desfrutar dos recursos oferecidos pelo autor
+ *
+ * @author Thalita Meira
+ * @version 1.0
+ * @since 18/09/2023
  */
 public class ContaTerminal {
+    /** Este método recebe todas as informações necessárias através do método Scanner, 
+     * fazendo a leitura das informações que são inputadas pelo cliente no terminal.
+     * 
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
 
         // Cria um objeto Scanner para ler dados do terminal
