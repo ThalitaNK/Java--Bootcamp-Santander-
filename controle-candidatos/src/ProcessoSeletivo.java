@@ -3,10 +3,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ProcessoSeletivo {
     public static void main(String[] args) throws Exception {
 
-        analisarCandidato(1900.0);
-        analisarCandidato(2200.0);
-        analisarCandidato(2000.00);
-
+        selecaoCandidatos();
     }
 
     static void selecaoCandidatos() {
@@ -18,7 +15,7 @@ public class ProcessoSeletivo {
         int candidatosSelecionados = 0;
         int candidatoAtual = 0;
         double salarioBase=2000.0;
-        while(candidatosSelecionados < 5) {
+        while(candidatosSelecionados < 5 && candidatoAtual < candidatos.length) {
             String candidato = candidatos[candidatoAtual];
             double salarioPretendido = valorPretendido();
 
