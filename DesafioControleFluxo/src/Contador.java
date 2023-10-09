@@ -12,8 +12,8 @@ public class Contador {
 			//chamando o método contendo a lógica de contagem
 			contar(parametroUm, parametroDois);
 		
-		}catch (? exception) {
-			System.out.println(e.getMessage());
+		}catch (ParametrosInvalidosException exception) {
+			System.out.println(exception.getMessage());
 		}
 		
 	}
